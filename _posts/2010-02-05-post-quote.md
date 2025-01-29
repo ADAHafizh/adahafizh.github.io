@@ -1,5 +1,5 @@
 ---
-title: "Post: Quote"
+title: "Assignment 3: Post: Quote"
 categories:
   - Blog
 tags:
