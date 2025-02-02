@@ -5,5 +5,8 @@ main:
     url: /posts/
   - title: "DAAH"
     url: /daah/
+  - title: "DLN"
+    url: /dln/
   - title: "Tags"
     url: /tags/
+  
