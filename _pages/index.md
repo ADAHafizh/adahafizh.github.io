@@ -11,5 +11,5 @@ header:
     - label: "<i class='fa fa-play-circle'></i> Begin exploring"
       url: "/posts/"
 excerpt: >
-  A digital archive, with some contents written in Gen-Z languange and slangs to bridge audiences.
+  A digital archive, with some contents written in Gen-Z language and slangs to bridge audiences.
 ---
