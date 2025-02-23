@@ -1,5 +1,6 @@
 ---
 title: "Assignment 4: Post: Notice"
+hidden: true
 categories:
   - Blog
 tags:
