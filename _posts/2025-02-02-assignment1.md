@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1: Analyzing Sherlock Holmes Corpus"
-profile: hide
+author_profile: false
 categories:
   - Blog
 tags:
@@ -34,12 +34,12 @@ We combine all books and separate them into three corpora. Books that were writt
  
 ## 2) RMarkdown
 Our first analysis begins with a Word Cloud. Using this tool allows us to visualize our material generally. The most common words will pop-up and we can expect that words like Holmes or Sherlock should appear the most. 
-![Word Cloud pre-SH](/assets/images/assignment1/img_wordcloud_preSH.png)
-This image is a word cloud from a corpus of books written before Sherlock Holmes. 
-![Word Cloud SHBooks](/assets/images/assignment1/img_wordcloud_SHB.png)
-This image is a word cloud from a corpus of Sherlock Holmes books.
-![Word Cloud post-SH](/assets/images/assignment1/img_wordcloud_postSH.png)
-This image is a word cloud from a corpus of books after Sherlock Holmes finished. 
+![Word Cloud pre-SH ><](/assets/images/assignment1/img_wordcloud_preSH.png)
+<br>This image is a word cloud from a corpus of books written before Sherlock Holmes. 
+![Word Cloud SHBooks ><](/assets/images/assignment1/img_wordcloud_SHB.png)
+<br>This image is a word cloud from a corpus of Sherlock Holmes books.
+![Word Cloud post-SH ><](/assets/images/assignment1/img_wordcloud_postSH.png)
+<br>This image is a word cloud from a corpus of books after Sherlock Holmes finished. 
 
 ### GGPlot Results
 
@@ -66,5 +66,4 @@ However, this did not turn out to be the case. Both methods of comparing Sherloc
 
 What we do observe is that the themes regarding ‘adventure’ is relevant in all works. But, we conclude that Sherlock Holmes thickens this theme more, observable by how closer the word is in pre-SH to post-SH.
 
-Another discovery we observed is the shift in themes between them. Sherlock Holmes Books share a common theme of human anatomy, medicine, and physician practices, judging by how words like ‘arm’, ‘bosom’, and ‘brain’ are relevant in these stories but not the ones after. We suspect that Doyle used these themes because of his physician background. By the end of his career, Doyle shifted the themes of his writing to a more political, 
-historical, and war-focused apparent from the more distinctive use of words such as ‘battle’, ‘sword’, and ‘country’. These words could reflect the relentless conditions of Europe at that time (given how close it was to WW1 and WW2) 
+Another discovery we observed is the shift in themes between them. Sherlock Holmes Books share a common theme of human anatomy, medicine, and physician practices, judging by how words like ‘arm’, ‘bosom’, and ‘brain’ are relevant in these stories but not the ones after. We suspect that Doyle used these themes because of his physician background. By the end of his career, Doyle shifted the themes of his writing to a more political, historical, and war-focused apparent from the more distinctive use of words such as ‘battle’, ‘sword’, and ‘country’. These words could reflect the relentless conditions of Europe at that time (given how close it was to WW1 and WW2) 
