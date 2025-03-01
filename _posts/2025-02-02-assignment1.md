@@ -132,3 +132,14 @@ Unlike close reading, which provides specific insights, distant reading offers b
 Utlizing both Voyant Tools and RStudio, our analysis shows that while Sherlock Holmes was a pivotal phase in Doyle’s career, it did not permanently alter his writing style. Before Holmes, his works explored crime, morality, and the supernatural. During the Holmes era, his writing became sharper and centered on investigation and logical reasoning. However, after Holmes, Doyle moved away from detective fiction, favoring historical adventure, war, and politics.
 
 >All in all, Sherlock Holmes refined the detective genre, but it was a distinct phase rather than a defining influence on Doyle’s later works. His post-Holmes books returned to themes more in line with his early storytelling—adventure, history, and human psychology—rather than investigative crime fiction. Through computational analysis and human interpretation, we conclude that while Holmes left a mark on the mystery genre, Doyle himself moved on.
+___
+#### Author & Contributions
+This article was co-authored by Lucas Lin and Hafizh Ahmad Dahlan. Hafizh developed the research focus and selected the texts, while Lucas structured and designed the document. The analysis was divided between them: Hafizh conducted research using Posit Cloud, while Lucas analyzed data with Voyant Tools. After discussing their findings, they collaborated on the conclusion, which Lucas drafted. For theoretical connections, Hafizh linked the research to Drucker, while Lucas referenced Rockwell and Sinclair. Hafizh wrote the initial background introduction, and both authors proofread and refined the text for clarity and coherence.
+
+#### Resources Used
+
+- Drucker, Johanna. 2021. The Digital Humanities Coursebook: An Introduction to Digital Methods for Research and Scholarship. 1st ed. Routledge. https://doi.org/10.4324/9781003106531.
+- Rockwell, Geoffrey, and Stéfan Sinclair. 2016. The Measured Words: How Computers Analyze Text. University of Illinois Press. https://ieeexplore.ieee.org/document/7580345.
+- DAAH Assignment 1 Images. Google Drive Folder. https://drive.google.com/drive/folders/1rJ2Qpp3dRragVGbPkpCsLGkPa6Kq2eTW?usp=drive_link 
+
+✅**READY FOR GRADING**✅
