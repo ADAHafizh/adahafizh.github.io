@@ -112,17 +112,11 @@ Our first analysis begins with a Word Cloud. Using this tool allows us to visual
 This time, we are using ggplot to reveal some more insights. The graph below shows the most recurring words in all selected Sherlock Holmes books. Based on the word cloud we generated previously, we expect the word ‘Holmes’ or 'Sherlock' to appear at the top. In this scenario, we sorted out the words so that only words that reoccur above 150 times would show up.
 ![ggplot Iteration](/assets/images/assignment1/ggplot_wordfreq.png)
 
-**First Iteration**
-Next, we compared the groups to get more insights. In the first iteration, we compared Sherlock Holmes books with pre-SH and post-SH. Our expectation is to observe words closer to the center line in Sherlock Holmes with post-SH compared to with pre-SH. 
-![ggplot Iteration](/assets/images/assignment1/ggplot_first_iteration.png)
-
-**Second Iteration**
-In this graph, we modified the values of the jitter size, height, and width. We also adjusted the colors so that it differs from the first iteration. We observed that the change allowed for more distinct words to show up compared to the first iteration.
-![ggplot Iteration](/assets/images/assignment1/ggplot_second_iteration.png)
-
-**Third Iteration**
-We decided to change things around this time by comparing pre-Sherlock Holmes books with the post and Sherlock Holmes series itself. The ggplot values are the same as the previous graph. Only the color is changed this time around.
-![ggplot Iteration](/assets/images/assignment1/ggplot_third_iteration.png)
+| Image | Description |
+|-------|-------------|
+|![ggplot Iteration](/assets/images/assignment1/ggplot_first_iteration.png)       |Next, we compared the groups to get more insights. In the first iteration, we compared Sherlock Holmes books with pre-SH and post-SH. Our expectation is to observe words closer to the center line in Sherlock Holmes with post-SH compared to with pre-SH.              |
+|![ggplot Iteration](/assets/images/assignment1/ggplot_second_iteration.png)       |In this graph, we modified the values of the jitter size, height, and width. We also adjusted the colors so that it differs from the first iteration. We observed that the change allowed for more distinct words to show up compared to the first iteration.             |
+|![ggplot Iteration](/assets/images/assignment1/ggplot_third_iteration.png)       |We decided to change things around this time by comparing pre-Sherlock Holmes books with the post and Sherlock Holmes series itself. The ggplot values are the same as the previous graph. Only the color is changed this time around.             |
 
 ## 3) Discussion & Conclusion
 Our initial hypothesis was that writing Sherlock Holmes influenced Doyle’s later works. We expected words that were absent before Sherlock Holmes to recur afterward, appearing closer to the center line between post-Holmes and Sherlock Holmes books in our analysis. However, the data did not support this assumption. Comparing Sherlock Holmes books (SHB) with both pre-Sherlock (pre-SH) and post-Sherlock (post-SH) works showed only minor differences. Thus, this computational approach could not definitively answer whether Sherlock Holmes influenced Doyle’s later writing.
@@ -132,7 +126,8 @@ Unlike close reading, which provides specific insights, distant reading offers b
 Utlizing both Voyant Tools and RStudio, our analysis shows that while Sherlock Holmes was a pivotal phase in Doyle’s career, it did not permanently alter his writing style. Before Holmes, his works explored crime, morality, and the supernatural. During the Holmes era, his writing became sharper and centered on investigation and logical reasoning. However, after Holmes, Doyle moved away from detective fiction, favoring historical adventure, war, and politics.
 
 >All in all, Sherlock Holmes refined the detective genre, but it was a distinct phase rather than a defining influence on Doyle’s later works. His post-Holmes books returned to themes more in line with his early storytelling—adventure, history, and human psychology—rather than investigative crime fiction. Through computational analysis and human interpretation, we conclude that while Holmes left a mark on the mystery genre, Doyle himself moved on.
-___
+
+
 #### Author & Contributions
 This article was co-authored by Lucas Lin and Hafizh Ahmad Dahlan. Hafizh developed the research focus and selected the texts, while Lucas structured and designed the document. The analysis was divided between them: Hafizh conducted research using Posit Cloud, while Lucas analyzed data with Voyant Tools. After discussing their findings, they collaborated on the conclusion, which Lucas drafted. For theoretical connections, Hafizh linked the research to Drucker, while Lucas referenced Rockwell and Sinclair. Hafizh wrote the initial background introduction, and both authors proofread and refined the text for clarity and coherence.
 
