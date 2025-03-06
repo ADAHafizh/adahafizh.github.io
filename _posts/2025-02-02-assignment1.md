@@ -97,15 +97,14 @@ Sherlock Holmes introduced psychological themes such as perception, deception, a
 
 The bar graph illustrates the evolution of character and role-related terms in Doyle’s works. During the Sherlock Holmes era, terms like "inspector," "detective," and "criminal" rise significantly, reflecting a strong focus on investigation. Pre-Holmes books feature "inspector" and "agent" but with less emphasis on detectives. Post-Holmes, detective-related terms decline as "officer" becomes more prominent, marking a shift from detective-driven narratives to broader authority figures. This suggests that while Holmes reinforced Doyle’s engagement with crime and justice, his later works shifted toward legal and societal themes over individual investigations.
 
-
 ## 2) RMarkdown
 Our first analysis begins with a Word Cloud. Using this tool allows us to visualize our material generally. The most common words will pop-up and we can expect that words like Holmes or Sherlock should appear the most. 
-![Word Cloud pre-SH ><](/assets/images/assignment1/img_wordcloud_preSH.png) <br>
-<br>This image is a word cloud from a corpus of books written before Sherlock Holmes. 
-![Word Cloud SHBooks ><](/assets/images/assignment1/img_wordcloud_SHB.png)
-<br>This image is a word cloud from a corpus of Sherlock Holmes books.
-![Word Cloud post-SH ><](/assets/images/assignment1/img_wordcloud_postSH.png)
-<br>This image is a word cloud from a corpus of books after Sherlock Holmes finished. 
+
+| Image | Description |
+|-------|:-----------:|
+|![Word Cloud pre-SH ><](/assets/images/assignment1/img_wordcloud_preSH.png)       |This image is a word cloud from a corpus of books written before Sherlock Holmes.             |
+|![Word Cloud SHBooks ><](/assets/images/assignment1/img_wordcloud_SHB.png)       |This image is a word cloud from a corpus of Sherlock Holmes books.             |
+|![Word Cloud Post-SH ><](/assets/images/assignment1/img_wordcloud_postSH.png)       |This image is a word cloud from a corpus of books after Sherlock Holmes finished.             |
 
 ### GGPlot Results
 
