@@ -11,8 +11,10 @@ Write a 750 word reflection on digital literacy from the perspective of a 20 yea
 ### What is Digital Literacy?
 It is a person's ability to read and engage a digital media or platform. Reading here is beyond understanding textual information (i.e alphabets), but more so towards finding, navigating, evaluating, and communicating information contained within the media. Engaging is to use that information and process it: *"I've read this post on Instagram, what can I learn from it?*" or *"I want to go on a vacation to location X, where are the cool spots. Should I begin searching reviews on forums, or look at place reviews on (a digital) map?"* Such spark in the person's mind is a result of the person's ability to digest informations stored within a digital media and process it to produce a desirable outcome. 
 
-### Subconsciously Like A Computer
+### (To be) Literate
 A person's digital literacy partially is influenced by their proficiency in computational thinking. Berry (2017) emphasizes this term as "a cognitive practice  developed through a practical wisdom that emerges from action [of knowing how to do things]." In its essence, when confronted by a digital media, a person is considered literate when they take procedural steps,  as Berry suggest, 'algorithmic' and 'computational' (that is like a computer) to digest the information. **[TO FIX FOR LATER] In the article, Berry classifies a computer's procedures into multiple categories. To sum it all up, essentially, if a person is able to reflect upon the information they stumbled, it is considered a practical wisdom of computational thinking.**  
+
+### Subconsciously Like A Computer
 
 [PUT IMAGE OF AN INSTAGRAM POST HERE]
 
