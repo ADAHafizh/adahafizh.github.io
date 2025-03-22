@@ -76,7 +76,7 @@ As I continue my journey through university, I am excited to deepen my engagemen
 <br>
 ____
 ### Resources 
-Adwetewa-Badu, Ama Bemma . Distant Reading: A Discussion with Ama Bemma Adwetewa-Badu. 22 May 2022, newbooksnetwork.com/distant-reading.
-Berry/Fagerjord, “On the Way to Computational Thinking,” Digital Humanities: Knowledge and Critique in the Digital Age, 2017, 40-59
-Drucker, Johanna. The Digital Humanities Coursebook an Introduction to Digital Methods for Research and Scholarship. London New York Routledge, Taylor & Francis Group, 2021.
+- Adwetewa-Badu, Ama Bemma . Distant Reading: A Discussion with Ama Bemma Adwetewa-Badu. 22 May 2022, newbooksnetwork.com/distant-reading.
+- Berry/Fagerjord, “On the Way to Computational Thinking,” Digital Humanities: Knowledge and Critique in the Digital Age, 2017, 40-59
+- Drucker, Johanna. The Digital Humanities Coursebook an Introduction to Digital Methods for Research and Scholarship. London New York Routledge, Taylor & Francis Group, 2021.
 
