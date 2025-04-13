@@ -31,6 +31,7 @@ After working on our assignment with both Google’s Gemini and DeepSeek, here a
 - Moreover, DeepSeek is capable of reading .csv files. This process helped us tremendously as it was able to refer to our data structure; hence, when new OCRs are performed, the output was easily mergeable with ours.
 
 > **All in all, DeepSeek takes the crown as it was able to perform tasks and deliver satisfactory results for our research. Tthe tool gave us unique insights based on the table, a task that would have taken a long time to examine had we done it manually, reading row by row.**
+
 ## Modeling
 ### Processing the Report
 The following is a detailed explanation of our processes. We extracted shipping information from the Zanzibar Gazette 1909 by first screenshotting each page. Then, we fed this image to Google Gemini. The following are the prompts (bold texts) with their respective results that Gemini gave us. Then, we exported this .csv data into Google Sheets and created a table by splitting columns. From there, we decided to alter some of the header and data that we deem important to ‘clean’ further.
@@ -38,8 +39,10 @@ The following is a detailed explanation of our processes. We extracted shipping 
 > **Hello! Can you please generate me a table and .csv based on the image shown?**
 Absolutely! Let's break down the information in the image and create a table and a CSV representation.
 
-![Prompt 1.png](/assets/images/assignment2/prompt_1.png)
-![Prompt 1.png](/assets/images/assignment2/prompt_1(2).png)
+| ![Prompt 1.png](/assets/images/assignment2/prompt_1.png)  |
+|---|
+| ![Prompt 1.png](/assets/images/assignment2/prompt_1(2).png)  |
+
 There are several changes that we made before visualizing our data:
 1.  Changing cargo type into ship type
 - We examined that based on the two tables, we can classify the ships into two categories: a cargo ship and a warship (Man-O’-War). Cargo Type, we deem, is unnecessary for our research and would not provide beneficial information. Instead, knowing what type came during a specific week of the month (that is, cargo ships or warships) makes our data much more interesting.
@@ -60,13 +63,14 @@ After having worked on over a hundred rows, fatigue started to envelop our team.
 >***“What if we feed the machine our edited tabular data and ask them to do OCR and generate the output based on our table structure?”***
 
 At this point, we learned that Gemini did not support .csv files. Luckily, DeepSeek does. The following conversation is the prompts that we use to generate over 100 rows for our table by using DeepSeek.
-...
+
 | Prompt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Output                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uploaded 1909_ShippingReport.csv (our base file) Okay. I have attached a file here. Please examine the file and take note of the headers and the contents stored within.                                                                                                                                                                                                                                                                                                                                                         | DeepSeek examines the file.  Let me know if you’d like to explore specific aspects (e.g., filtering by nationality, time ranges, or missing data)! |
-| Uploaded a screenshot of the Zanzibar Gazette Shipping Reports 1 June 1909 Now, examine the 1909_ShippingReport.csv file I have provided. If you still remember and examined correctly, you should notice that the tabular data image I have provided you contains data structured similarly to the .csv file I provided. Can you merge the .csv file I just provided with the ones you created? Ignore the longitude (from), latitude (from), longitude (destination), and latitude (destination) columns and leave them empty. | ![Prompt 2.png](/assets/images/assignment2/prompt_2.png)                                                                                                                                                 |
-| Remember the steps that you have done previously. Here is a new image similar to the ones I gave before. Extract the textual information and adjust the data so that it fits the 1909_ShippingReport.csv structure while ignoring longitude (from), latitude (from), longitude (destination), and latitude (destination) columns and leave them empty.                                                                                                                                                                           | ![Prompt 3.png](/assets/images/assignment2/prompt_3.png)                                                                                                                                                      |
-...
+| Uploaded a screenshot of the Zanzibar Gazette Shipping Reports 1 June 1909 Now, examine the 1909_ShippingReport.csv file I have provided. If you still remember and examined correctly, you should notice that the tabular data image I have provided you contains data structured similarly to the .csv file I provided. Can you merge the .csv file I just provided with the ones you created? Ignore the longitude (from), latitude (from), longitude (destination), and latitude (destination) columns and leave them empty. | ![Prompt 2.png](/assets/images/assignment2/prompt_2.png)                                                                                           |
+| Remember the steps that you have done previously. Here is a new image similar to the ones I gave before. Extract the textual information and adjust the data so that it fits the 1909_ShippingReport.csv structure while ignoring longitude (from), latitude (from), longitude (destination), and latitude (destination) columns and leave them empty.                                                                                                                                                                           | ![Prompt 3.png](/assets/images/assignment2/prompt_3.png)                                                                                           |
+
+
 ## Visualization
 ### Fantastic Dhows and Where to Find Them
 Initially, we tried using Google Sheets to represent our analysis on Dhows. However, we encountered numerous problems regarding Timeline Graphs, and the outcome did not display the data like we expected. Instead, we used an online tool called [CSV Plots](https://www.csvplot.com/) to map our data in a line graph. 
