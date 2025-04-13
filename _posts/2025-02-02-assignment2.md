@@ -30,7 +30,8 @@ After working on our assignment with both Google’s Gemini and DeepSeek, here a
 - In comparison, DeepSeek can clean up data. As an example, DeepSeek understands dittos in the table and assumes that it should follow the preceding table value. There are also several cleanups that the tool performed which we will showcase later.
 - Moreover, DeepSeek is capable of reading .csv files. This process helped us tremendously as it was able to refer to our data structure; hence, when new OCRs are performed, the output was easily mergeable with ours.
 
-> **All in all, DeepSeek takes the crown as it was able to perform tasks and deliver satisfactory results for our research. Tthe tool gave us unique insights based on the table, a task that would have taken a long time to examine had we done it manually, reading row by row.**
+> **All in all, DeepSeek takes the crown as it was able to perform tasks and deliver satisfactory results for our research. Tthe tool gave us unique insights based on the table, a task that would have taken a long time to examine had we done it manually, reading row by row**. 
+>
 
 ## Modeling
 ### Processing the Report
