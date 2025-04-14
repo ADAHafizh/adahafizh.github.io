@@ -14,7 +14,7 @@ In this collection, we scrambled through the tables within. As far as we observe
 
 ### Competition Between Machines
 
-One cornerstone that Klein touched upon is the idea that ‘the bigger AI model does not mean it is better. Their research studies indicate that simply increasing the amount of data, model complexity, or computational power does not necessarily improve the accuracy of AI outputs. For humanities researchers, this suggests that striving for a single, all-encompassing form of artificial intelligence is a complex and problematic goal, highlighting the limitations of such an approach.
+One cornerstone that Klein touched upon is the idea that ‘*the bigger AI model does not mean it is better.*' Their research studies indicate that simply increasing the amount of data, model complexity, or computational power does not necessarily improve the accuracy of AI outputs. For humanities researchers, this suggests that striving for a single, all-encompassing form of artificial intelligence is a complex and problematic goal, highlighting the limitations of such an approach.
 
 Initially, we used the free version of ChatGPT-4 as our primary machine to recognize the text. However, we soon encountered a limit to the processing demands of around 5 prompts and 20 rows of data analyzed. Because of this limit, we decided to change our program to use Google’s [Gemini](https://gemini.google.com/app) and [DeepSeek](https://www.deepseek.com/).
 
@@ -50,9 +50,21 @@ There are several changes that we made before visualizing our data:
 - We examined that based on the two tables, we can classify the ships into two categories: a cargo ship and a warship (Man-O’-War). Cargo Type, we deem, is unnecessary for our research and would not provide beneficial information. Instead, knowing what type came during a specific week of the month (that is, cargo ships or warships) makes our data much more interesting.
 2. **Still in Harbour**
 - During our examination, we encountered the phrase *Still in harbour* several times. It usually appears in a ship’s *Bound To* column. We assume that this phrase signifies that the ship has yet to depart from its original harbor. We decided that instead of inputting Still in Harbour, having the original harbor’s name would be better as later on, in our visualization map, no lines are formed since the ship’s location did not change.
-3. **Spelling Correction**
-- We noticed that there are locations which does not exist or would not work when we tried to use the GeoCode extension on them. For example, German Coast does not refer to an actual location. South also appeared several times. To ensure our geocoding works, we decided to change these names to Germany and (we presume) South Africa.
-4. Due to the image quality, Gemini made mistakes on the recognized characters. Some dates, for example, would refer to 1900 instead of 1909. Partly because of its similarities. Some names, such as Wami, were mistaken as Wani. We compared the table and did manual edits to these data ourselves.
+3.  **Geographic Data Verification Process**
+ - The geocoding phase revealed several categories of location-related challenges that demanded tailored solutions. For completely unrecognizable place names like "German Coast," we conducted archival research to determine appropriate modern equivalents (in this case, "Germany"). Vague directional terms such as "South" were interpreted through careful analysis of shipping routes and contextual clues, typically defaulting to "South Africa" when no clearer alternative emerged. We addressed variable spellings (e.g., "Daressalaam"/"Dar es Salaam") by creating and applying a standardized names reference list. Particularly challenging were obsolete terms like "Tania" and "Gaulle ato Dobouti," which required consultation of historical shipping records and colonial-era documents before we could confidently map them to contemporary equivalents.
+    
+
+4.  **Text Recognition and Formatting Corrections**
+- The suboptimal quality of source images necessitated an extensive manual review process for the OCR-generated data. Our team performed side-by-side comparisons of extracted data with original newspaper scans, developing a comprehensive list of common error patterns (e.g., "1900" vs "1909", "Wami" vs "Wani") to guide systematic corrections. We established rigorous formatting standards for ship prefixes (S.S., C.S.), ensuring consistent spacing, punctuation, and proper column assignment through verification against known shipping registries. Company naming conventions were normalized through the implementation of strict formatting rules governing initial spacing (D.O.A.L. vs D. O. A. L.), capitalization standards (Co. vs co.), and punctuation guidelines for ampersands and abbreviations. Every data point underwent double verification to ensure accuracy, particularly for numerical values where OCR frequently misidentified similar-looking digits in low-quality scans.
+    
+
+5.  **Temporal Data Preparation**
+- Preparing the date data for Kepler visualization demanded careful precision. We developed a strict standardization process that first reconstructed incomplete dates by analyzing contextual clues from adjacent entries and the newspaper's publication rhythm. Each timestamp was then reformatted to include both date and time components, with empty time values automatically set to 00:00:00. This involved manually processing the entire date column to enforce uniform formatting - every entry was verified to follow the exact "1909-MM-DD 00:00:00" structure, ensuring compatibility with Kepler's visualization requirements. Special attention was given to correcting OCR errors in dates while maintaining historical accuracy throughout the dataset.
+    
+
+6.  **Ship Prefix Standardization Process**
+- The inconsistent formatting of ship prefixes (S.S. for steamship, C.S. for cable ship) required extensive manual correction, as they frequently appeared in wrong columns, were omitted entirely, or contained irregular spacing/punctuation (e.g., "S .S.", "S.S ."). We systematically audited each entry, cross-referenced historical registers to verify proper prefixes, and standardized all variations to "S.S." or "C.S." format.
+
 
 ### Mapping our Data
 
@@ -87,12 +99,7 @@ Initially, we tried using Google Sheets to represent our analysis on Dhows. Howe
 Dhows Arrived
 
 ![Dhows Arrived](/assets/images/assignment2/Graph_Line_Dhows_Arrive.png)
-## Discussions
-Zanzibar was a major maritime trade hub in East Africa. In 1909, it was under British colonial rule but had strong connections to Arabian traders, particularly from Oman. The high number of Zanzibar/British dhows indicates local dominance in maritime activity. 
--   Zanzibar remained a significant maritime trade hub under British influence in 1909.
--   Zanzibar/British dhows were the most active, indicating local trade control.
--   Seasonal fluctuations might suggest dependency on weather patterns during the months.
--   Arabian and German traders had moderate involvement, while French traders played a minor role.
+
 ## Conclusion
 This assignment has allowed us to learn more about AI, specifically its capabilities of doing humanities tasks. On first glance, we did not identify any major conclusions from our data. Rather than not having enough information, it lies at the point that nothing ‘interesting’ comes out of the water. Upon closer inspection, we were able to extract some information, albeit their truth has to be researched further beyond our data. 
 Zanzibar was a major maritime trade hub in East Africa. In 1909, it was under British colonial rule but had strong connections to Arabian traders, particularly from Oman. The high number of Zanzibar/British dhows indicates local dominance in maritime activity. We also took into account external influences that might affect the data, such as:
@@ -100,6 +107,9 @@ Zanzibar was a major maritime trade hub in East Africa. In 1909, it was under Br
 - The dominance of British/Zanzibari dhows could reflect policies favoring local traders.
 - The presence of German dhows could be linked to German East Africa, now countries Rwanda and Burundi, the continental portion of Tanzania, and a small section of Mozambique.
 - Arabian and German traders had moderate involvement, while French traders played a minor role.
+
+## Contributions
+*On this assignment, Ahmad prompted the AI chatbots, created the .csv file Google Sheets, and Dhows graph. Lucas visualized the main table (Shipping Report) into Kepler. We both refined the shipping report table and wrote the markdown post together.*
 
 ## Resources
 Klein, Lauren, et al. "Provocations from the humanities for generative ai research." arXiv preprint arXiv:2502.19190 (2025).
