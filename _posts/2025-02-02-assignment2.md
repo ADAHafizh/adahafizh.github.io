@@ -10,7 +10,10 @@ tags:
 ### Source Material
 For this assignment, we are using the Zanzibar Gazette Year 1909. The year was chosen considering metadata quality (the ability to search texts inside) and visibility (how good the visuals are). Our next consideration is the tidiness of the data. The year 1909 onwards provide better layout and clarity on the information stored compared to previous years. We also would like to avoid the years between 1914 - 1918 as it was the period of World War I, and we expect lower amounts of data in the Gazette during these years.
 
-In this collection, we scrambled through the tables within. As far as we observed, there are tables regarding mail, meteorological reports, custom and principal item reports, ship sailings, and shipping reports. Zanzibar Gazette’s shipping report caught our attention for two reasons: a) compared to other tables, shipping reports were more consistent in terms of layout because it is legible enough for us, and presumably for our machine to read. b) we would like to automate our processes as best as possible so that we could allocate our time for in-depth analysis and visualization of our map.
+In this collection, we scrambled through the tables within. As far as we observed, there are tables regarding mail, meteorological reports, custom and principal item reports, ship sailings, and shipping reports. Among these, the Shipping Reports caught our attention for two main reasons: 
+1. They featured a relatively consistent layout and clear quality, making them easier for us and for the machines to process. 
+2. Their ease of transcription allowed us to focus on automating the data extraction process and investing more time in in-depth analysis and visualization.
+
 
 ### Competition Between Machines
 
@@ -29,7 +32,7 @@ After working on our assignment with both Google’s Gemini and DeepSeek, here a
 -  For OCR, Gemini does not correct itself and instead chooses to give whatever it recognizes. In other words, if the outcome produced by Gemini contained a mistake, it would likely persist.
 1. **DeepSeek**
 - In comparison, DeepSeek can clean up data. As an example, DeepSeek understands dittos in the table and assumes that it should follow the preceding table value. There are also several cleanups that the tool performed which we will showcase later.
-- Moreover, DeepSeek is capable of reading .csv files. This process helped us tremendously as it was able to refer to our data structure; hence, when new OCRs are performed, the output was easily mergeable with ours.
+- Additionally, DeepSeek can read .csv files , which allowed it to reference our existing data structure. This feature proved especially useful, as new OCR outputs could be seamlessly merged with our dataset.
 
 > All in all, DeepSeek takes the crown as it was able to perform tasks and deliver satisfactory results for our research. Perhaps it was trained under similar data to recognize better than Gemini. Moreover, the tool gave us unique insights based on the table, a task that would have taken a long time to examine had we done it manually, reading row by row.
 >
@@ -67,10 +70,11 @@ There are several changes that we made before visualizing our data:
 
 ## Data Correction
 ### A Major Overlook
-During three-quarters of the process, we noticed a major oversight from our side when we tried to visualize our data. We took ‘snippets’ of the shipping report by cutting half of the page. However, upon closer inspection, juxtaposing the reports of 16th March 1909 with others, we noticed that all shipping reports of Zanzibar Gazette 1909 occupy full pages.  
->This means that the actual report is not only limited to the cargo ships but also includes warships (categorized as Man-O-War) and smaller traditional vessels (classified as Dhows). In exchange, our data visualization, which was previously limited to cargo ships, was now expanded to include other types of ships.
+Three-quarters into the process, a significant oversight came to light when we attempted to visualize our data. We had been taking 'snippets' of the shipping reports by cropping only half of the page. However, upon a closer comparison—specifically juxtaposing the 16th March 1909 report with others, we realized that every Zanzibar Gazette shipping report from 1909 spans an entire page. 
 
-With this new information in mind, we have decided to include warships in our shipping report table. However, because ‘*Dhows Arrived*’ and ‘*Dhows Departed*’ data were different, we decided not to include them in the table and instead opted to create a separate table and represent it using bar graphs. 
+This discovery revealed that the reports were not limited to cargo ships but also included warships (categorized as Man-O-War) and smaller, traditional vessels (classified as Dhows). Consequently, what was once a visualization focused solely on cargo ships was expanded to encompass a broader range of maritime activity. 
+
+With this new insight, we decided to incorporate warships into our primary shipping report table. However, since the Dhows Arrived and Dhows Sailed  data followed a different structure, we chose not to integrate them into the main table. Instead, we created a separate table and visualized the dhow data using bar graphs. 
 
 ### Nudging the Tool
 After having worked on over a hundred rows, fatigue started to envelop our team. We realized that manually editing the rows and columns was not a viable solution. Instead, since we already curated these rows, we thought of something:
@@ -88,8 +92,12 @@ At this point, we learned that Gemini did not support .csv files. Luckily, DeepS
 
 ## Visualization
 ### Mapping Zanzibar Shipping Report 1909
+We created an interactive map by importing our standardized dataset into Kepler, structuring it with three primary visualization layers: 
+1. **Origin Points:** Translucent circles mark each departure location—blue for cargo ships and red for warships—plotted using their departure coordinates. 
+2. **Destination Markers:** Uniform yellow dots represent the “Bound To” locations. 3. Trajectories: Dynamic arrows connect origin and destination points, color-coded by vessel nationality (British = red, German = green, French = blue, etc.). 
 
-We created an interactive map by importing our standardized dataset into Kepler, structuring it with three primary visualization layers: First, origin points are rendered as translucent circles (blue for cargo ships, red for warships) plotted using departure coordinates. Second, destination markers appear as uniform yellow dots generated from the "Bound To" locations. Third, dynamic trajectory arrows connecting these points, color-coded by vessel nationality (British=red, German=green, French=blue, etc.). For enhanced readability, we styled origin labels in blue and destination tags in yellow. The temporal dimension was implemented through an animated timeline (2x playback speed) that sequentially renders shipping routes based on our rigorously formatted arrival dates (DD-MM-YYYY 00:00:00). This multi-layered visualization simultaneously communicates: (a) geographic movement patterns via the point-to-point connection system, (b) national fleet distributions through chromatic encoding, and (c) historical sequencing via the time-based animation.
+For clarity, origin labels are styled in blue, and destination tags in yellow. We added a temporal dimension using an animated timeline (set to 2x playback speed), which renders routes sequentially based on rigorously formatted arrival dates (DD-MM-YYYY 00:00:00). This multi-layered visualization communicates three key narratives: (a) geographic movement patterns via the point-to-point connection system, (b) national fleet distributions through chromatic encoding, and (c) historical sequencing via the time-based animation.
+
 
 | ![Kepler Map](/assets/images/assignment2/Map.gif)  |
 |---|
@@ -105,12 +113,14 @@ Initially, we tried using Google Sheets to represent our analysis on Dhows. Howe
 
 
 ## Conclusion
-This assignment has allowed us to learn more about AI, specifically its capabilities of doing humanities tasks. On first glance, we did not identify any major conclusions from our data. Rather than not having enough information, it lies at the point that nothing ‘interesting’ comes out of the water. Upon closer inspection, we were able to extract some information, albeit their truth has to be researched further beyond our data. 
-Zanzibar was a major maritime trade hub in East Africa. In 1909, it was under British colonial rule but had strong connections to Arabian traders, particularly from Oman. The high number of Zanzibar/British dhows indicates local dominance in maritime activity. We also took into account external influences that might affect the data, such as:
-- Seasonal trade routes depended heavily on monsoon patterns from March - May. Dhows from Arabia and India likely followed these seasonal winds. Notable by the drop in dhows arriving.
-- The dominance of British/Zanzibari dhows could reflect policies favoring local traders.
-- The presence of German dhows could be linked to German East Africa, now countries Rwanda and Burundi, the continental portion of Tanzania, and a small section of Mozambique.
-- Arabian and German traders had moderate involvement, while French traders played a minor role.
+This assignment has allowed us to learn more about AI, specifically its capabilities of doing humanities tasks. On first glance, we did not identify any major conclusions from our data. Rather than not having enough information, it lies at the point that nothing particularly ‘interesting’ surfaced from the shipping records.However, through closer inspection and contextual analysis, we were able to identify meaningful patterns—though these observations remain provisional and would require further research beyond our dataset to confirm. Zanzibar, in 1909, stood as a vital maritime trade hub in East Africa. Although under British colonial rule at the time, it maintained strong commercial ties with Arabian traders, particularly those from Oman. The high number of Zanzibar/British dhows indicates local dominance in maritime activity. We also took into account external influences that might affect the data, such as:
+- **Seasonal Trade Routes:** Maritime trade was heavily influenced by monsoon patterns, particularly between March and May. Dhows from Arabia and India likely followed these seasonal wind cycles—evident in the noticeable drop in arriving dhows during these months.
+- **Colonial Policies:** The dominance of British and Zanzibari dhows may have been shaped by colonial policies that favored local or colonial-affiliated traders, potentially limiting foreign competition.
+- **German Presence:** The presence of German dhows could be linked to the presence of German East Africa at the time, which encompassed modern-day Rwanda, Burundi, mainland Tanzania, and a small section of Mozambique.
+- **Relative Influence:** Arabian and German traders demonstrated moderate activity, while French traders seemed to play a relatively minor role in Zanzibar’s maritime network.
+
+Ultimately, while our project began as a technical exercise in digitization and data visualization, it gradually revealed layers of historical insight—underscoring how even seemingly mundane records can illuminate broader narratives when combined with careful analysis and contextual understanding.
+
 
 ## Contributions
 *On this assignment, Ahmad prompted the AI chatbots, created the .csv file Google Sheets, and Dhows graph. Lucas visualized the main table (Shipping Report) into Kepler. We both refined the shipping report table and wrote the markdown post together.*
