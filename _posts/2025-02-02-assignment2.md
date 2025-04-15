@@ -121,6 +121,9 @@ This assignment has allowed us to learn more about AI, specifically its capabili
 
 Ultimately, while our project began as a technical exercise in digitization and data visualization, it gradually revealed layers of historical insight—underscoring how even seemingly mundane records can illuminate broader narratives when combined with careful analysis and contextual understanding.
 
+## Sheet Download Links 
+[Dhows.csv](https://github.com/ADAHafizh/adahafizh.github.io/blob/master/assets/csv/Dhows.csv)
+[Shipping Report.csv](https://github.com/ADAHafizh/adahafizh.github.io/blob/master/assets/csv/Shipping_Report.csv)
 
 ## Contributions
 *On this assignment, Ahmad prompted the AI chatbots, created the .csv file Google Sheets, and Dhows graph. Lucas visualized the main table (Shipping Report) into Kepler. We both refined the shipping report table and wrote the markdown post together.*
@@ -128,3 +131,5 @@ Ultimately, while our project began as a technical exercise in digitization and 
 ## Resources
 Klein, Lauren, et al. "Provocations from the humanities for generative ai research." arXiv preprint arXiv:2502.19190 (2025).
 The Editors of Encyclopaedia Britannica. "German East Africa". Encyclopedia Britannica, 15 Oct. 2024, https://www.britannica.com/place/German-East-Africa. 
+
+☑️**READY FOR GRADING**☑️
