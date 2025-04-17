@@ -6,6 +6,7 @@ tags:
   - assignment
   - Post Formats
 ---
+Written by Ahmad Hafizh and Lucas Lin
 ## Background
 ### Source Material
 For this assignment, we are using the Zanzibar Gazette Year 1909. The year was chosen considering metadata quality (the ability to search texts inside) and visibility (how good the visuals are). Our next consideration is the tidiness of the data. The year 1909 onwards provide better layout and clarity on the information stored compared to previous years. We also would like to avoid the years between 1914 - 1918 as it was the period of World War I, and we expect lower amounts of data in the Gazette during these years.
