@@ -88,27 +88,30 @@ With Orange, I split my process into two parts. The first part consisted of usin
  4. **Nature** → Images with trees, mountains, and overall 'greens' in them
  5. **Scenery** → Images that may contain nature, buildings, cities, but overall not nature. These categories will help me determine the Confusion Matrix later on. 
 
+.
+
 **Part One: Uncategorized Corpus** 
-A
+.
 
-| Image | Description |
-|-------|-------------|
-|       |             |
+| Image                                                                         | Description                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![uncategorized.png](/assets/images/assignment3/Orange/Uncategorized.png)     | Based on the output, what I can conclude is that the left-axis recognizes nature images, whereas the right-axis typically recognizes humans, although there are scenery, machines, and creatures mixed in between. |
+| ![monster_cluster.png](/assets/images/assignment3/Orange/monster_cluster.png) | I did a selection from the cluster to see on a detailed view. From what I learn, it seems to recognize similar looking pictures of creatures / monsters despite being from different movies.                       |
 
-Based on the output, what I can conclude is that the left-axis recognizes nature images, whereas the right-axis typically recognizes humans, although there are scenery, machines, and creatures mixed in between. 
+.
 
 **Part Two: Categorized Corpus** 
 In this part, I wanted to experiment by trying to uncover 'how' the model thinks when classifying the images. What I found interesting is that the model agrees with three categories: *Nature, Scenery, and Machines.* On the other hand, it seems to fail on figuring out the difference between a person and a creature. 
-A
+.
 
-| Image | Description |
-|-------|-------------|
-|       |             |
-|       |             |
-|       |             |
-|       |             |
+| Image                                                                    | Description                                                                                                                                                                    |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![categorized.png](/assets/images/assignment3/Orange/categorized.png)    | After sorting around 100 images (based on my selection), here are the sorted, looking more clean and structured.                                                               |
+| ![correct.png](/assets/images/assignment3/Orange/matrix_correct.png)     | All the correct images the model is able to recognize based on the set categories                                                                                              |
+| ![creatures.png](/assets/images/assignment3/Orange/matrix_creatures.png) | It seems that the model got confused between creatures and humans. Now that I look at it, some pictures does have humans in them, although overshadowed by (larger) creatures. |
+| ![humans.png](/assets/images/assignment3/Orange/matrix_humans.png)       | The model is able to recognize all human pictures well. I suspect it is influenced by paintings with human subject in them, bearing similarities within.                       |
 
-A
+.
 ## Discussions
 
 While working on this project, I noticed several things on the way AI models recognize anime pictures. I want to highlight shapes (two-dimensional representation, built using lines, textures, or colours) and forms (likely three-dimensional as it has depth, elements of art, principles of design, and media). Why is this important? Because from some of the examples above, it can be summarized that the model recognizes shapes more than forms. 
