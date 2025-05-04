@@ -52,14 +52,13 @@ The following are results taken from Lupin III: The Castle of Cagliostro. I did 
 
 | Image | Description |
 |-------|-------------|
-|       |             |
-|       |             |
-|       |             |
-|       |             |
-|       |             |
-|       |             |
-|       |             |
+|![chair.png](/assets/images/assignment3/DVE_Object/chair.png)|It recognizes chair, but not the window, or the person next to it.|
+|![bench.png](/assets/images/assignment3/DVE_Object/bench.png)|Successfully recognized bench, but not table, nor the fences|
+|![clock.png](/assets/images/assignment3/DVE_Object/clock.png)|Suprisingly, it got clock and two persons correctly|
+|![boat.png](/assets/images/assignment3/DVE_Object/boat.png)|It thinks that the castle is a boat. Perhaps because it is surrounded by waters|
+|![bed.png](/assets/images/assignment3/DVE_Object/bed.png)|Sadly, this is completely wrong. Could have guessed fountains, or even ruins.|
 
+A
 ### DVE » Image Segmentation
 For image segmentation, I used frames from My Neighbor Totoro. The reason I use this film was because there is a clear distinction in most of the scenes (i.e sky, ground, trees, house, etc.) If the model pass this test, then I assume we could use other images that are more difficult. 
 
