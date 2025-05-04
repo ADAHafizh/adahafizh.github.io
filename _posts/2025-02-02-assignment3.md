@@ -1,9 +1,18 @@
-# Oh Ghibli! 
+---
+title: "Assignment 3: Oh Ghibli!"
+categories:
+  - Blog
+tags:
+  - assignment
+  - Post Formats
+---
+
+Written by Ahmad Dahlan Hafizh
 
 ## Prologue 
 Recently, in March and April, we have seen the rise of Ghibli-style AI generated images circulate within the internet. Controversies rose amidst the trend, highlighting that these images violate Studio Ghibli's intellectual property (their animes). On one side, using AI to generate 'Ghibli' stylized images pay no respect to the animators, producers, and everyone involved that has poured their tears and sweat to create beautiful animations. On the other, these images were generated 'for fun' and would not reflect any ill intentions behind it.
 
-As we have been studying for a whole semester with AI tools, I wish to gain an insight to this event. **[CITE READING HERE]**, in other words, by using AI, we also learn how the machine itself works (how it was trained, what it was trained with, and who trained it). 
+As we have been studying for a whole semester with AI tools, I wish to gain an insight to this event. [CITE READING HERE], in other words, by using AI, we also learn how the machine itself works (how it was trained, what it was trained with, and who trained it). 
 
 This post is my study on using several AI tools to analyze hundreds of frames from several Studio Ghibli films. If these AI tools are able to 'recognize' these images, we can suspect that they were trained on similar images. Thus, if that is the case, it means the parties behind them used same, or at the very least, similar images, which could mean a violation of intellectual property and rights. Hence, the outcome of this experiment raises the question of morality on using these AI tools. 
 ## Methodology
@@ -65,6 +74,7 @@ For image segmentation, I used frames from My Neighbor Totoro. The reason I use 
 Since the model was able to distinct section of a scenery, I also tried several scenes from Spirited Away which were slightly more abstract than My Neighbor Totoro scenes. The results are included in the able above. 
 ### DVE » Zero-Shot Model 
 For this multimodal, I am unsure which material to use. For simplicity's sake, I use the frames from Kiki's Delivery Service, which I believe contains scenes that reflect our cities, nature, and people quite well. The results are unsurprising that the model was able to recognize most of the 'context' within the images well.
+
 | 'House' | 'Street with cars' | 'Harbor' |
 |---------|--------------------|----------|
 |         |                    |          |
@@ -79,23 +89,30 @@ With Orange, I split my process into two parts. The first part consisted of usin
  5. **Scenery** → Images that may contain nature, buildings, cities, but overall not nature. These categories will help me determine the Confusion Matrix later on. 
 
 **Part One: Uncategorized Corpus** 
+A
+
 | Image | Description |
 |-------|-------------|
 |       |             |
 
 Based on the output, what I can conclude is that the left-axis recognizes nature images, whereas the right-axis typically recognizes humans, although there are scenery, machines, and creatures mixed in between. 
+
 **Part Two: Categorized Corpus** 
 In this part, I wanted to experiment by trying to uncover 'how' the model thinks when classifying the images. What I found interesting is that the model agrees with three categories: *Nature, Scenery, and Machines.* On the other hand, it seems to fail on figuring out the difference between a person and a creature. 
+A
+
 | Image | Description |
 |-------|-------------|
 |       |             |
 |       |             |
 |       |             |
 |       |             |
+
+A
 ## Discussions
 
 ## Resources
-
+## References
 
 Lin, T.-Y., Maire, M., Belongie, S., Bourdev, L., Girshick, R., Hays, J., Perona, P., Ramanan, D., Zitnick, C., & Dollár, P. (2015). _Microsoft COCO: Common Objects in Context_. https://arxiv.org/pdf/1405.0312
 
