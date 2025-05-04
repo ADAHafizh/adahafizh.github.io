@@ -63,12 +63,12 @@ A
 ### DVE » Image Segmentation
 For image segmentation, I used frames from My Neighbor Totoro. The reason I use this film was because there is a clear distinction in most of the scenes (i.e sky, ground, trees, house, etc.) If the model pass this test, then I assume we could use other images that are more difficult. 
 
-| Original Image | Segment 1 | Segment 2 | Segment 3 |
-|----------------|-----------|-----------|-----------|
-|                |           |           |           |
-|                |           |           |           |
-|                |           |           |           |
-|                |           |           |           |
+| Original Image                                                         | Segment 1                                                                  | Segment 2                                                                  | Segment 3                                                                  |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| ![twoperson.png](/assets/images/assignment3/DVE_Segment/twoperson.jpg) | ![twoperson.png](/assets/images/assignment3/DVE_Segment/two_person(1).png) | ![twoperson.png](/assets/images/assignment3/DVE_Segment/two_person(2).png) | ![twoperson.png](/assets/images/assignment3/DVE_Segment/two_person(3).png) |
+|                                                                        |                                                                            |                                                                            |                                                                            |
+|                                                                        |                                                                            |                                                                            |                                                                            |
+|                                                                        |                                                                            |                                                                            |                                                                            |
 
 Since the model was able to distinct section of a scenery, I also tried several scenes from Spirited Away which were slightly more abstract than My Neighbor Totoro scenes. The results are included in the able above. 
 ### DVE » Zero-Shot Model 
@@ -110,13 +110,15 @@ In this part, I wanted to experiment by trying to uncover 'how' the model thinks
 | ![correct.png](/assets/images/assignment3/Orange/matrix_correct.png)     | All the correct images the model is able to recognize based on the set categories                                                                                              |
 | ![creatures.png](/assets/images/assignment3/Orange/matrix_creatures.png) | It seems that the model got confused between creatures and humans. Now that I look at it, some pictures does have humans in them, although overshadowed by (larger) creatures. |
 | ![humans.png](/assets/images/assignment3/Orange/matrix_humans.png)       | The model is able to recognize all human pictures well. I suspect it is influenced by paintings with human subject in them, bearing similarities within.                       |
-
+| ![machines.png](/assets/images/assignment3/Orange/matrix_machines.png)   | There's a lot of gaps, but overall I think it did pretty well on agreeing what machines are?                                                                                   |
+| ![nature.png](/assets/images/assignment3/Orange/matrix_nature.png)       | All greens, nice!                                                                                                                                                              |
+| ![scenery.png](/assets/images/assignment3/Orange/matrix_scenery.png)     | Yes. I agree these are sceneries as well                                                                                                                                       |
 .
 ## Discussions
 
 While working on this project, I noticed several things on the way AI models recognize anime pictures. I want to highlight shapes (two-dimensional representation, built using lines, textures, or colours) and forms (likely three-dimensional as it has depth, elements of art, principles of design, and media). Why is this important? Because from some of the examples above, it can be summarized that the model recognizes shapes more than forms. 
 
-> **Take the image from Castle of Cagliostro (DVE, Object Detection), the AI recognizes clocks, ties, but not cars, nor castles (it mistook as a boat, perhaps by also looking its position in waters).**
+> **Take the image from Castle of Cagliostro (DVE, Object Detection), the AI recognizes clocks, ties, but not windows, nor castles, or some people (it mistook as a boat, perhaps by also looking its position in waters).**
 
 Similarly, Inception v3 can distinguish nature, scenery, images relatively well, because I suspect their dataset was trained on paintings (perhaps those renaissance nature paintings). The colors, shapes elements, in the pictures were easily recognized by the model, hence it was able to predict those judging by the confusion matrix. 
 
