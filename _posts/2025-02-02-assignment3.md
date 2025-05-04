@@ -113,6 +113,7 @@ In this part, I wanted to experiment by trying to uncover 'how' the model thinks
 | ![machines.png](/assets/images/assignment3/Orange/matrix_machines.png)   | There's a lot of gaps, but overall I think it did pretty well on agreeing what machines are?                                                                                   |
 | ![nature.png](/assets/images/assignment3/Orange/matrix_nature.png)       | All greens, nice!                                                                                                                                                              |
 | ![scenery.png](/assets/images/assignment3/Orange/matrix_scenery.png)     | Yes. I agree these are sceneries as well                                                                                                                                       |
+
 .
 ## Discussions
 
