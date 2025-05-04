@@ -50,13 +50,14 @@ The second tool that I am using is **Orange Data Mining** an open-source data vi
 ### DVE » Object Detection
 The following are results taken from Lupin III: The Castle of Cagliostro. I did the test 2-3 times to see if there could be any changes in the result, but apparently the model seems to be consistent in its answers.
 
-| Image | Description |
-|-------|-------------|
-|![chair.png](/assets/images/assignment3/DVE_Object/chair.png)|It recognizes chair, but not the window, or the person next to it.|
-|![bench.png](/assets/images/assignment3/DVE_Object/bench.png)|Successfully recognized bench, but not table, nor the fences|
-|![clock.png](/assets/images/assignment3/DVE_Object/clock.png)|Suprisingly, it got clock and two persons correctly|
-|![boat.png](/assets/images/assignment3/DVE_Object/boat.png)|It thinks that the castle is a boat. Perhaps because it is surrounded by waters|
-|![bed.png](/assets/images/assignment3/DVE_Object/bed.png)|Sadly, this is completely wrong. Could have guessed fountains, or even ruins.|
+| Image                                                         | Description                                                                              |
+| ------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| ![chair.png](/assets/images/assignment3/DVE_Object/chair.png) | It recognizes chair, but not the window, or the person next to it.                       |
+| ![bench.png](/assets/images/assignment3/DVE_Object/bench.png) | Successfully recognized bench, but not table, nor the fences                             |
+| ![clock.png](/assets/images/assignment3/DVE_Object/clock.png) | Suprisingly, it got clock and two persons correctly                                      |
+| ![boat.png](/assets/images/assignment3/DVE_Object/boat.png)   | It thinks that the castle is a boat. Perhaps because it is surrounded by waters          |
+| ![bed.png](/assets/images/assignment3/DVE_Object/bed.png)     | Sadly, this is completely wrong. Could have guessed fountains, or even ruins.            |
+| ![tie.png](/assets/images/assignment3/DVE_Object/tie.png)     | It is able to recognize an object as small as a tie, but not the large person wearing it |
 
 A
 ### DVE » Image Segmentation
@@ -73,9 +74,10 @@ Since the model was able to distinct section of a scenery, I also tried several 
 ### DVE » Zero-Shot Model 
 For this multimodal, I am unsure which material to use. For simplicity's sake, I use the frames from Kiki's Delivery Service, which I believe contains scenes that reflect our cities, nature, and people quite well. The results are unsurprising that the model was able to recognize most of the 'context' within the images well.
 
-| 'House' | 'Street with cars' | 'Harbor' |
-|---------|--------------------|----------|
-|         |                    |          |
+| 'City'                                                                                                            | 'House'                                                                       | 'Person'                                                          |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| ![city.png](/assets/images/assignment3/DVE_Multimodal/city.png)                                                   | ![house.png](/assets/images/assignment3/DVE_Multimodal/house.png)             | ![city.png](/assets/images/assignment3/DVE_Multimodal/person.png) |
+| The first 10 or so pictures go it right, there are features of a city such as tall buildings, streets, cars, etc. | I am surprised it chose the interior of a house rather than the external form | It got the pictures right, nice job!                              |
 
 ### Orange Data Mining
 With Orange, I split my process into two parts. The first part consisted of using an unsorted, uncategorized corpus, meaning all 300+ images are inside a single folder. The latter being a categorized corpus based off five categories:
@@ -109,8 +111,15 @@ A
 A
 ## Discussions
 
+While working on this project, I noticed several things on the way AI models recognize anime pictures. I want to highlight shapes (two-dimensional representation, built using lines, textures, or colours) and forms (likely three-dimensional as it has depth, elements of art, principles of design, and media). Why is this important? Because from some of the examples above, it can be summarized that the model recognizes shapes more than forms. 
+
+> **Take the image from Castle of Cagliostro (DVE, Object Detection), the AI recognizes clocks, ties, but not cars, nor castles (it mistook as a boat, perhaps by also looking its position in waters).**
+
+Similarly, Inception v3 can distinguish nature, scenery, images relatively well, because I suspect their dataset was trained on paintings (perhaps those renaissance nature paintings). The colors, shapes elements, in the pictures were easily recognized by the model, hence it was able to predict those judging by the confusion matrix. 
+
+So, what does this tell us? Think back about the problem that we presented in the beginning: Ghibli style AI-generated images circulating in the internet. To be able to recognize an image, and then converting it to another style means that the model has to understand both images firsthand. This also means, that it was trained using Ghibli images. If such is the case, *how were those companies obtain the images?* Ultimately, this project asks about our morality when developing AI. As a tool,  it emphasizes our nature by million-fold. Depending on our intentions, it can multiply good or evil, and we are the ones that decide our future and fate. 
+
 ## Resources
-## References
 
 Lin, T.-Y., Maire, M., Belongie, S., Bourdev, L., Girshick, R., Hays, J., Perona, P., Ramanan, D., Zitnick, C., & Dollár, P. (2015). _Microsoft COCO: Common Objects in Context_. https://arxiv.org/pdf/1405.0312
 
