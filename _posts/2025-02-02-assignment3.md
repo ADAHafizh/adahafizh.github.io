@@ -1,12 +1,11 @@
 ---
-title: "Assignment 3: Oh Ghibli"
+title: "Assignment 3: Ghibli"
 categories:
   - Blog
 tags:
   - assignment
   - Post Formats
 ---
-
 Written by Ahmad Dahlan Hafizh
 
 ## Prologue 
