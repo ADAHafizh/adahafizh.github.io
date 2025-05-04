@@ -1,5 +1,5 @@
 ---
-title: "Assignment 3: Oh Ghibli!"
+title: "Assignment 3: Oh Ghibli"
 categories:
   - Blog
 tags:
