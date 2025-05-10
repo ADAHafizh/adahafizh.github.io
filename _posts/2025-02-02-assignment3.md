@@ -11,9 +11,11 @@ Written by Ahmad Dahlan Hafizh
 ## Prologue 
 Recently, in March and April, we have seen the rise of Ghibli-style AI generated images circulate within the internet. Controversies rose amidst the trend, highlighting that these images violate Studio Ghibli's intellectual property (their animes). On one side, using AI to generate 'Ghibli' stylized images pay no respect to the animators, producers, and everyone involved that has poured their tears and sweat to create beautiful animations. On the other, these images were generated 'for fun' and would not reflect any ill intentions behind it.
 
-As we have been studying for a whole semester with AI tools, I wish to gain an insight to this event. [CITE READING HERE], in other words, by using AI, we also learn how the machine itself works (how it was trained, what it was trained with, and who trained it). 
+> Computer vision decodes to interpret and convey encoded messages in digital images. At the same time, computational methods are created by people and are therefore not outside of cultural, social, and historical ways of seeing and practices of looking. 
+> *Arnold & Tilton, Distant Viewing: Theory p. 26*
 
-This post is my study on using several AI tools to analyze hundreds of frames from several Studio Ghibli films. If these AI tools are able to 'recognize' these images, we can suspect that they were trained on similar images. Thus, if that is the case, it means the parties behind them used same, or at the very least, similar images, which could mean a violation of intellectual property and rights. Hence, the outcome of this experiment raises the question of morality on using these AI tools. 
+As we have been studying for a whole semester with AI tools, I wish to gain an insight to this event. Distant Viewing Theory argues that observing computational vision interpretation is a double-way to the humans themselves, in other words, by using AI, we also learn how the machine itself works (how it was trained, what it was trained with, and who trained it). 
+
 ## Methodology
 ### Snapshotting Ghibli 📸
 The first question that I ask when doing this project is simple:
@@ -59,18 +61,18 @@ The following are results taken from Lupin III: The Castle of Cagliostro. I did 
 | ![bed.png](/assets/images/assignment3/DVE_Object/bed.png)     | Sadly, this is completely wrong. Could have guessed fountains, or even ruins.            |
 | ![tie.png](/assets/images/assignment3/DVE_Object/tie.png)     | It is able to recognize an object as small as a tie, but not the large person wearing it |
 
-A
+.
 ### DVE » Image Segmentation
-For image segmentation, I used frames from My Neighbor Totoro. The reason I use this film was because there is a clear distinction in most of the scenes (i.e sky, ground, trees, house, etc.) If the model pass this test, then I assume we could use other images that are more difficult. 
 
-| Original Image                                                         | Segment 1                                                                  | Segment 2                                                                  | Segment 3                                                                  |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| ![twoperson.png](/assets/images/assignment3/DVE_Segment/twoperson.jpg) | ![twoperson.png](/assets/images/assignment3/DVE_Segment/two_person(1).png) | ![twoperson.png](/assets/images/assignment3/DVE_Segment/two_person(2).png) | ![twoperson.png](/assets/images/assignment3/DVE_Segment/two_person(3).png) |
-|                                                                        |                                                                            |                                                                            |                                                                            |
-|                                                                        |                                                                            |                                                                            |                                                                            |
-|                                                                        |                                                                            |                                                                            |                                                                            |
+For image segmentation, I used frames from My Neighbor Totoro. The reason I use this film was because there is a clear distinction in mos
+t of the scenes (i.e sky, ground, trees, house, etc.) If the model pass this test, then I assume we could use other images that are more difficult. 
 
-Since the model was able to distinct section of a scenery, I also tried several scenes from Spirited Away which were slightly more abstract than My Neighbor Totoro scenes. The results are included in the able above. 
+| Original & Segments                                                    |
+| ---------------------------------------------------------------------- |
+| ![building.gif](/assets/images/assignment3/DVE_Segment/building.gif)   |
+| ![twoperson.gif](/assets/images/assignment3/DVE_Segment/twoperson.gif) |
+
+Since the model was able to distinct section of a scenery, I also tried several scenes from Spirited Away which were slightly more abstract than My Neighbor Totoro scenes. Sadly, the computer was not able to distinguish between buildings and people mixed in together. 
 ### DVE » Zero-Shot Model 
 For this multimodal, I am unsure which material to use. For simplicity's sake, I use the frames from Kiki's Delivery Service, which I believe contains scenes that reflect our cities, nature, and people quite well. The results are unsurprising that the model was able to recognize most of the 'context' within the images well.
 
@@ -127,6 +129,8 @@ So, what does this tell us? Think back about the problem that we presented in th
 
 ## Resources
 
+Arnold, T., & Tilton, L. (2023). Downloaded from. _The MIT Press_. https://doi.org/10.7551/mitpress/14046.001.0001
+
 Lin, T.-Y., Maire, M., Belongie, S., Bourdev, L., Girshick, R., Hays, J., Perona, P., Ramanan, D., Zitnick, C., & Dollár, P. (2015). _Microsoft COCO: Common Objects in Context_. https://arxiv.org/pdf/1405.0312
 
 Loonnn. (2025). _Loonnn Imgur Profile_. Imgur. https://imgur.com/user/Loonnn
@@ -134,5 +138,3 @@ Loonnn. (2025). _Loonnn Imgur Profile_. Imgur. https://imgur.com/user/Loonnn
 O’Brien, M., & Parvini, S. (2025, March 27). _ChatGPT’s viral Studio Ghibli-style images highlight AI copyright concerns_. AP News. https://apnews.com/article/studio-ghibli-chatgpt-images-hayao-miyazaki-openai-0f4cb487ec3042dd5b43ad47879b91f4
 
 Q, H. (2025, March 28). _My Experience with Studio Ghibli Style AI Art: Ethical Debates in the GPT-4o Era_. Medium. https://medium.com/@haileyq/my-experience-with-studio-ghibli-style-ai-art-ethical-debates-in-the-gpt-4o-era-b84e5a24cb60
-
-Zhai, X., Mustafa, B., Kolesnikov, A., & Beyer, L. (2023). Sigmoid loss for language image pre-training. In _Proceedings of the IEEE/CVF international conference on computer vision_ (pp. 11975-11986).
