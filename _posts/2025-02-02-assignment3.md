@@ -138,3 +138,5 @@ Loonnn. (2025). _Loonnn Imgur Profile_. Imgur. https://imgur.com/user/Loonnn
 O’Brien, M., & Parvini, S. (2025, March 27). _ChatGPT’s viral Studio Ghibli-style images highlight AI copyright concerns_. AP News. https://apnews.com/article/studio-ghibli-chatgpt-images-hayao-miyazaki-openai-0f4cb487ec3042dd5b43ad47879b91f4
 
 Q, H. (2025, March 28). _My Experience with Studio Ghibli Style AI Art: Ethical Debates in the GPT-4o Era_. Medium. https://medium.com/@haileyq/my-experience-with-studio-ghibli-style-ai-art-ethical-debates-in-the-gpt-4o-era-b84e5a24cb60
+
+✅**READY FOR GRADING**✅
