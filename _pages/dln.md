@@ -8,7 +8,7 @@ title: "Digital Literacy Narrative (DLN)"
 Write a 750 word reflection on digital literacy from the perspective of a 20 year old university student at a liberal arts university. Include strategies they might already know how to employ in their daily and academic lives for content creation, social interaction, as well as any platforms or software they use for research data management as well as data manipulation and analysis. Consider the different skill sets in the room given all the interdisciplinary majors ( in different fields such as Computer Science, Interactive Media, Film and New Media, Literature or Creative Writing, Art and Art History). Reflect on how digital humanities might offer new horizons on what they are studying, how collaboration might offer new avenues for developing their “computational thinking” that is in the sense of Berry and Fagerjord (A cognitive practice involving practical wisdom and reflection on computation) and how they can learn about new ways of approaching data and the world of AI. Offer critical reflection on your current abilities, what you are what you are discovering in the course as well as what kinds of new ways of thinking you would like to explore.*
 </details>
 <br>
-(Last edited 22 March 2025)
+(Last edited 11 May 2025)
 
 ### What is Digital Literacy? 📖
 It is a person's ability to read and engage a digital media or platform. Reading here is beyond understanding textual information (i.e alphabets), but more so towards finding, navigating, evaluating, and communicating information contained within the media. Engaging is to use that information and process it: *"I've read this post on Instagram, what can I learn from it?*" or *"I want to go on a vacation to location X, where are the cool spots. Should I begin searching reviews on forums, or look at place reviews on (a digital) map?"* Such spark in the person's mind is a result of the person's ability to digest informations stored within a digital media and process it to produce a desirable outcome. 
@@ -44,39 +44,33 @@ In class, we learned new frontiers on processing humanities materials to a digit
 
 For me, in the context of academics, distant reading has helped me create a context mind map of my class readings. After having closely read them, by using Voyant Tools, I was able to gain general context of all the reading we've done so far. In exchange, I was also able to see small information that I might have missed during my close reading. 
 
-### Digital Literacy in Content Creation and Social Interaction
+### Negotiating Futures with AI: Tool or Beyond? 🤖
 
-Digital literacy informs how I engage with content creation and social interaction. For instance, as a Literature and Creative Writing major, I use platforms like Medium and Substack to publish essays, engage with communities of writers, and receive constructive feedback. My peers in Film and New Media might be adept at using Adobe Premiere Pro or DaVinci Resolve for video editing, while those studying Interactive Media might be creating augmented reality experiences or designing user interfaces with Figma. Regardless of discipline, we all rely on digital platforms to distribute our work, communicate with audiences, and collaborate with others.
-
-Social interaction is similarly shaped by digital fluency. Tools like Discord, Slack, and Trello facilitate collaborative academic projects and extracurricular activities. While I might use Instagram or TikTok to share creative writing snippets or engage with literature-focused communities, my peers in Art History might curate digital exhibitions on platforms like Google Arts & Culture. Understanding the affordances and limitations of these platforms is a crucial skill—one that extends beyond social engagement to how we construct and critique digital narratives.
-
-### Digital Research and Data Management
-
-Managing and analyzing research data is another essential component of digital literacy. For example, I use Zotero to organize citations for literary analysis papers, while my friends in Computer Science might use GitHub for version control in coding projects. My peers in Art and Art History rely on databases like JSTOR and Artstor for research, while those in Interactive Media might employ Unity or Unreal Engine to prototype interactive experiences. Understanding how to efficiently manage digital information not only improves research efficiency but also fosters critical engagement with sources.
-
-Moreover, data manipulation and analysis have become integral to various disciplines. I have experimented with Voyant Tools to conduct textual analysis of literary works, uncovering hidden patterns in large corpora of texts. Meanwhile, my peers in Computer Science use Python and R for data visualization, and those in Film and New Media analyze audience engagement metrics using Google Analytics. Each discipline has its own toolkit, yet digital humanities offer a bridge between them, demonstrating how computational approaches can enrich our understanding of literature, art, and media.
-
-### Digital Humanities and New Horizons in Learning
-
-The field of digital humanities provides an interdisciplinary space where traditional humanistic inquiry meets computational methods. Before taking courses in digital humanities, I viewed textual analysis as a primarily close-reading endeavor. However, through exposure to machine learning models for sentiment analysis and topic modeling, I have begun to see literature not just as a collection of individual texts but as part of larger, analyzable systems. Digital humanities expand what is possible in my field, from network analysis of characters in novels to computational studies of authorship attribution.
-
-This exposure has also deepened my understanding of computational thinking, as described by Berry and Fagerjord—not just as programming but as a cognitive practice that involves practical wisdom and reflection on computation itself. In collaborative settings, my peers and I negotiate different approaches to problems: a computer science student might suggest algorithmic sorting for a dataset, while a literature student like myself might emphasize the ethical implications of data collection. These interdisciplinary discussions challenge us to develop nuanced perspectives on digital methods, recognizing both their potential and their limitations.
-
-### Onwards and Beyond 🎯
-
-(March 2025)
 After having exposed to new digital research tools, I realize that there are more ways to engage with digital information than just 'read' them, literally. One of the common goals of Digital Arts and Humanities work is in the realms of digitatlization + preservation of analog materials. We learned how *tedious* and consuming work for researchers to be able to digitize these materials. But in doing so, we are also presented with a dilemma: **as we process materials further and further, we are bound to 'wash off' some of its properties, potentially degrading its intention and meaning in the future.**
 
-Despite my growing proficiency in digital research tools, I recognize gaps in my understanding. While I am comfortable with basic text mining and visualization techniques, I would like to develop deeper expertise in natural language processing and data storytelling. AI presents new frontiers in creative writing, from generative text models to interactive storytelling experiences, and I am curious about how these tools can be critically and creatively engaged.
+In the second half of the class, we start to incorporate AI to help us with our work for textual, visual, and textual-visual data. On my first exploration (Zanzibar Gazette) with various AI tools, I come to the conclusion that their capabilities are still very much limited to the materials they are trained with. As such, when posed with a new problem usually we get undesired outputs. In other words, our current AI technologies are miles away from doing humanities work without human intervention. What truly surprised me was the last assignment: working with image corpus and AI recognition models, not in a way I expected.  
 
-Additionally, I want to explore the ethical dimensions of digital work. How do biases in AI systems shape the way information is processed and disseminated? We learned in class that different AI, depending on their training, does result in different political stances. How can we ensure that digital tools do not reinforce systemic inequalities in academia and beyond? Digital literacy is not just about technical proficiency but about developing a critical lens through which to evaluate digital systems and their impact on society. **It also means that as new technology is introduced to society, we have to be responsible on its uses both as a user and a developer.**
+> ... in reading a corpus of visual culture through a neural network, we are always also doing the reverse. Impett & Offert in *There Is a Digital Art History*
 
-### Conclusion
-As I continue my journey through university, I am excited to deepen my engagement with digital humanities and computational thinking. Digital literacy is not a static skill set but an evolving practice that requires constant learning and adaptation. By embracing interdisciplinary collaboration, critically reflecting on digital tools, and exploring new ways of approaching data, I hope to cultivate a digital fluency that is both technically sound and ethically informed. The liberal arts, with their emphasis on holistic learning, provide the perfect environment for this exploration—one where the humanities and technology do not stand in opposition but work together to enrich our understanding of the world.
-<br>
+While Drucker questions the legitimacy of Digital Art and Impett & Offert offer a new perspective on the nature of 'art' itself, in my last assignment I raised a moral question instead. By using Distant Viewing methods presented by Arnold as a method to look into an image corpus of Studio Ghibli images, we can see how AI interpretted them. The outcome of the assignment is to be expected: that the older models can only recognize resemblance to whatever they were trained on (which I assume were classical paintings).
+
+My current outlook on this is simple: *If the older models are not capable to recognize them, at some point in the future, they must have trained the newer models using these images. Thus, if it (newer models) were trained on these images, their methods of inquiry should be questioned.*
+
+### Closing Remarks
+ But the bread and butter is not about the intellectual property breach. It is the reason as to why we *enforce on doing it*. In a recent TED talk, Tristan Harris brought up a very important remark: 
+
+> Unlike any other tool, an AI advances other brances of knowledge equally. 
+
+Ultimately, this course allows me to reflect on our action with new technology. They are essentially tools. Depending on how, what, where, we use it, the outcome can be wonderland or terror valley. Should we maximize our profits, dismissing 'safety' protocols, or should we raise concerns by prioritizing 'morality' over gains? As the user of the tool, the choice is ours, and the future is for us--too. Ultimately, it comes full circle: a user can only think critically about this issue if they have sufficient digital literacy to grasp its context and significance.
+
+A DLN Post by Ahmad Dahlan Hafizh
+
 ____
 ### Resources 
 - Adwetewa-Badu, Ama Bemma . Distant Reading: A Discussion with Ama Bemma Adwetewa-Badu. 22 May 2022, newbooksnetwork.com/distant-reading.
+- Arnold, T., & Tilton, L. (2023). Distant Viewing: Theory. _The MIT Press_. https://doi.org/10.7551/mitpress/14046.001.0001
 - Berry/Fagerjord, “On the Way to Computational Thinking,” Digital Humanities: Knowledge and Critique in the Digital Age, 2017, 40-59
 - Drucker, Johanna. The Digital Humanities Coursebook an Introduction to Digital Methods for Research and Scholarship. London New York Routledge, Taylor & Francis Group, 2021.
+- Harris, T. (2025, May 1). _Why AI Is Our Ultimate Test and Greatest Invitation | Tristan Harris | TED_. YouTube; TED. https://www.youtube.com/watch?v=6kPHnl-RsVI
+- Impett, L., & Offert, F. (2022). There Is a Digital Art History. _Visual Resources_, _38_(2), 186–209. https://doi.org/10.1080/01973762.2024.2362466
 
