@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: "All related projects that I have done."
+description: "Courses on philology by Professor Dr von Igelfeld and esteemed colleagues. For undergraduate and graduate students."
 ---
