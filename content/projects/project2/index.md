@@ -6,7 +6,7 @@ author: "Ahmad Dahlan Hafizh"
 description: "A maze game with custom gyro-controller" 
 summary: "Dungeon Escapist is a single-player game where players take control of an adventurer and delve through a dungeon. The game requires an Arduino Gyroscope controller." 
 cover:
-    image: "banner.gif"
+    image: "bannerB.gif"
     alt: "© Camila xiao"
     relative: true
 editPost:
