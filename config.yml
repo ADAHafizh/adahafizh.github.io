@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Ahmad Dahlan "Hafizh"
-          subtitle: "Hey, I'm Hafizh from Jakarta, Indonesia. Senior at New York University Abu Dhabi studying Interactive Media and Computer Science minor. Prospective video game level designer. Passionate in mixed reality, advocating data justice through geospatial visualization, and connecting culture through narrative digital/traditional art exhibitions. Worked with several professors on those fields. Former World of Warcraft 6th global best tanking role, raider for 3 years in a static team. Addicted to cooking, dragonboating, bruising while climbing walls, and breakbeat music."
+          subtitle: "Hey, I'm Hafizh from Jakarta, Indonesia. Senior at New York University Abu Dhabi studying Interactive Media and Computer Science minor. Prospective video game level designer. Passionate in mixed reality, advocating data justice through geospatial visualization, and connecting culture through narrative digital/traditional art exhibitions. Worked with several professors on relevant fields. Former World of Warcraft 6th global best tanking role, raider for 3 years in a static team. Addicted to cooking, dragonboating, bruising while climbing walls, and breakbeat music."
           imageUrl: "pfp.png"
           imageWidth: 160
           imageHeight: 160
