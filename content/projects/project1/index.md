@@ -36,9 +36,9 @@ The player assumes the role of a knight, invading the evil castle. Upon entering
 
 | In-game screenshots                  |
 | ------------------------------------ |
-| ![Main Menu](img/mainmenu.png)       |        
-| ![Game Screen](img/gamescreen.png)   |
-| ![Death Screen](img/deathscreen.png) |
+| ![Main Menu](mainmenu.png)       |        
+| ![Game Screen](gamescreen.png)   |
+| ![Death Screen](deathscreen.png) |
 
 ## Intended Gameplay
 
@@ -48,7 +48,7 @@ Above a certain score, players will be greeted by stationary monsters that insta
 
 | Knight Sprite                    |
 | -------------------------------- |
-| ![Knight Sprite](img/knight.gif) |
+| ![Knight Sprite](knight.gif) |
 
 To win the game, players must reach a score of 1000 and proceed to the boss battle. (It is still in development, and I am unsure whether I will have the time to code it!)
 
