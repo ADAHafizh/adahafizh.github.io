@@ -62,10 +62,10 @@ params:
           buttons:
             - name: About
               url: about/
-            - name: Courses
-              url: courses/
             - name: Projects
               url: projects/
+            - name: Courses
+              url: courses/
             - name: Looking for DAAH?
               url: https://adahafizh.github.io/daah/
             - name: Archive
@@ -76,24 +76,12 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:adh10023@nyu.edu
+        - name: GitHub
+          url: https://github.com/ADAHafizh
+        - name: YouTube
+          url: https://www.youtube.com/@sisipah
         - name: Zoom
           url: https://nyu.zoom.us/launch/chat?src=direct_chat_link&email=adh10023@nyu.edu
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
