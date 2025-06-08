@@ -1,5 +1,5 @@
 ---
-title: "Lectures at the Villa of Reduced Circumstances"
+title: "Pyro Dancer | p5.js"
 date: 2024-04-06
 # this is to make the file pathing easier 
 aliases: 

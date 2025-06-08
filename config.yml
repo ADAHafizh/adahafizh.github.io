@@ -60,8 +60,6 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: About
-              url: about/
             - name: Projects
               url: projects/
             - name: Courses
