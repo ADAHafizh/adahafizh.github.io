@@ -1,15 +1,6 @@
 ---
 title: "Pyro Dancer | p5.js"
 date: 2024-04-06
-# this is to make the file pathing easier 
-aliases: 
-    - /projects/project1/img/deathscreen.png
-    - /projects/project1/img/gamescreen.png
-    - /projects/project1/img/knight.gif
-    - /projects/project1/img/mainmenu.png
-    - /projects/project1/img/pyrodancer.png
-    - /projects/project1/img/sketch.jpeg
-    - 
 tags: ["Game Development", "Game Design", "Class"]
 author: "Ahmad Dahlan Hafizh"
 description: "An endless runner game made in p5.js" 
