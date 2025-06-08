@@ -62,18 +62,14 @@ params:
           buttons:
             - name: About
               url: about/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
             - name: Courses
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+            - name: Projects
+              url: projects/
             - name: Looking for DAAH?
               url: https://adahafizh.github.io/daah/
+            - name: Archive
+              url: archive/
 
     socialIcons:
         - name: CV
