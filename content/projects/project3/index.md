@@ -17,7 +17,7 @@ disableAnchoredHeadings: false
 
 ---
 
-## Description 
+## Description
 
 ##### Development Time: 3 Weeks
 
@@ -38,6 +38,7 @@ An assignment for Games and Play Spring 2024, part of Interactive Media program 
 Players will pick up one weapon out of several many. There are various pre-generated maps, complete with enemies, traps, and loot. Scores will be count based on speed and execution.
 
 ##### Demo
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i1AA3GSpK2A?si=9uxGeqqYRiQiRoqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 To win the game, players must defeat their primary target within a certain time limit. 
