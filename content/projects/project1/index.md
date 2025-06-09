@@ -1,7 +1,7 @@
 ---
 title: "Pyro Dancer | p5.js"
 date: 2024-04-06
-tags: ["Game Development", "Game Design", "Class"]
+tags: ["Digital Video Game", "Game Development", "Game Design", "Class"]
 author: "Ahmad Dahlan Hafizh"
 description: "An endless runner game made in p5.js" 
 summary: "Pyro Dancer is an endless-runner 2D game with heavy inspirations from notable titles, such as Castlevania and Metroid series." 
