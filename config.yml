@@ -56,8 +56,8 @@ params:
           buttons:
             - name: Projects
               url: projects/
-            - name: Courses
-              url: courses/
+            - name: Experience
+              url: experience/
             - name: Looking for DAAH?
               url: https://adahafizh.github.io/daah/
             - name: Archive
