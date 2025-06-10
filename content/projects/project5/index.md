@@ -2,16 +2,16 @@
 title: "SOULMATES | Unity"
 date: 2024-03-03
 tags: ["Digital Video Game", "Game Development", "Game Design", "Class"]
-author: "Ahmad Dahlan Hafizh"
+author: ["Ahmad Dahlan Hafizh", "Ronit", "Yaakulya", "Aadi"]
 description: "2D Platformer Coop game" 
 summary: "A two-player local coop 2D platformer game about journey between life and death, together." 
 cover:
-    image: "racingbanner.gif"
-    alt: "© Orkhan Julfa"
+    image: "soulmatesbanner.png"
+    alt: "© Ahmad Dahlan Hafizh"
     relative: true
 editPost:
-    URL: "https://github.com/ADAHafizh/JustARacingGame"
-    Text: "Game Link (REQUIRES ARDUINO CONTROLLER - 2025)"
+    URL: "https://github.com/ADAHafizh/SOULMATES"
+    Text: "Game Link"
 showToc: true
 disableAnchoredHeadings: false
 
@@ -19,33 +19,33 @@ disableAnchoredHeadings: false
 
 ## Description 
 
-##### Development Time: 4 Weeks
+##### Development Time: 6 Weeks (100 Hours)
+##### Group project, personal role: level designer 
+##### Featured in the IM Program End of Semester Showcase ⭐
 
-Just A Racing Game is a single-player racing game made with Unity. The game is heavily inspired by your favorite racing games such as Asetto Corsa, Forza, and Need for Speed titles. 
+SOULMATES is exclusively a two-player game, designed for both players to engage simultaneously on a single computer. The primary objective of the game is to foster teamwork and cooperative problem-solving as players guide the souls through their journey, discovering their identities and stories.
 
-+ Explore three distinct circuits with different cars, each with its own specifications!
-+ Background music provided by PigeonScruff!
-+ Achieve your best time within three laps to secure a victory!
-+ 
-The game was developed as my first video game project for New York University Abu Dhabi (NYUAD) Interactive Media program class: Games and Play, lectured by taught by [Domna Banakou](https://domnabanakou.com/).
++ Local Coop, play with your friends or partners!
++ Three chapters, 15+ minutes gameplay
++ Portals, Lock N' Keys, Moving Platforms, Grappling Hooks and more!
+
+This game was developed as a final project for Games and Play Spring 2024 class, part of the Interactive Media (IM) program in New York University Abu Dhabi, lectured by [Domna Banakou](https://domnabanakou.com/).
 
 ## Screenshots 
 
-| In-game screenshots        |
+| All Chapters        |
 | -------------------------- |
-| ![Forest](forest.png) |
-| ![Ice](ice.png)  |
-| ![Desert](desert.png)  |
-
+| ![LevelDesign](leveldesignimage.png) |
 
 ## Intended Gameplay
 
-Players use WASD and SPACEBAR to control the cars. They have to reach the finish line after few laps within the time limit to finish. A scoreboard is presented after finishing a race. Players can also race bots. 
+Two players use WASD and Arrow Keys to control the characters. This control scheme emphasizes the game's focus on teamwork and communication, as players must coordinate their actions closely to solve puzzles and advance the story. The dual-player mode is essential for the narrative and mechanics of "Soulmates". Players are encouraged to work together in real-time, making decisions that affect the game's outcome. This setup enhances the game's thematic elements of companionship and togetherness, providing a unique interactive experience. This is central to the concept of "Soulmates", ensuring players can experience the full depth of the game's cooperative and storytelling potential.
 
 ##### Demo Video 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tdWcjklxVfY?si=0COzS3nYP0RVHk-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Development
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F_t7Cr7kWhk?si=P_Lb_w4EFODO5-na" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Development: LEVEL DESIGN
 
 ##### Brainstorming Phase 
 
