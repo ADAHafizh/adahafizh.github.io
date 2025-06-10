@@ -8,9 +8,9 @@
     --radius: 8px;
     --theme: rgb(244, 247, 248);
     --entry: rgb(244, 247, 248);
-    --primary: rgb(89, 151, 167);
-    --secondary: rgb(152, 203, 216);
-    --tertiary: rgb(99, 192, 215);
+    --primary: rgb(8, 8, 8);
+    --secondary: rgb(89, 151, 167);
+    --tertiary: rgb(152, 203, 216); 
     --gray: rgb(165, 165, 165);
     --content: rgb(30, 30, 30);
     --code-block-bg: rgb(28, 29, 33);
