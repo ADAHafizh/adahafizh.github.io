@@ -1,6 +1,6 @@
 ---
 title: "SOULMATES | Unity"
-date: 2024-03-03
+date: 2024-05-08
 tags: ["Digital Video Game", "Game Development", "Game Design", "Class"]
 author: ["Ahmad Dahlan Hafizh", "Ronit", "Yaakulya", "Aadi"]
 description: "2D Platformer Coop game" 
@@ -19,7 +19,7 @@ disableAnchoredHeadings: false
 
 ## Description 
 
-##### Development Time: 6 Weeks (100 Hours)
+##### Development Time: 6 Weeks (&plusmn;100 Hours)
 ##### Group project, personal role: level designer 
 ##### Featured in the IM Program End of Semester Showcase ⭐
 
@@ -39,7 +39,13 @@ This game was developed as a final project for Games and Play Spring 2024 class,
 
 ## Intended Gameplay
 
-Two players use WASD and Arrow Keys to control the characters. This control scheme emphasizes the game's focus on teamwork and communication, as players must coordinate their actions closely to solve puzzles and advance the story. The dual-player mode is essential for the narrative and mechanics of "Soulmates". Players are encouraged to work together in real-time, making decisions that affect the game's outcome. This setup enhances the game's thematic elements of companionship and togetherness, providing a unique interactive experience. This is central to the concept of "Soulmates", ensuring players can experience the full depth of the game's cooperative and storytelling potential.
+Two players use WASD and Arrow Keys to control the characters. 
++ This control scheme emphasizes the game's focus on teamwork and communication, as players must coordinate their actions closely to solve puzzles and advance the story. The dual-player mode is essential for the narrative and mechanics of "Soulmates". 
+
+Players are encouraged to work together in real-time, making decisions that affect the game's outcome. 
++ This setup enhances the game's thematic elements of companionship and togetherness, providing a unique interactive experience. 
+
+These two aspects are central to the concept of "Soulmates", ensuring players can experience the full depth of the game's cooperative and storytelling potential.
 
 ##### Demo Video 
 
@@ -49,22 +55,19 @@ Two players use WASD and Arrow Keys to control the characters. This control sche
 
 ##### Brainstorming Phase 
 
-I wanted to create a simple racing game, that's it. This was my very first take on Unity and the tranasition from Unreal Engine workflow to Unity was an interesting process. Alas, I wanted to push how much I could design the race tracks, car physics, and aesthetics in general. 
+> The development of "Soulmates" started by defining a clear vision: to create a cooperative puzzle-solving game that emphasized storytelling. The core idea was to intertwine the game mechanics with the narrative, making each puzzle a part of the unfolding story about two souls discovering their past. 
 
-+ I chose low poly designs because it aligns with the simplicty aspect 
+> As such, cooperation is mandatory with puzzles that cannot be solved by players acting independently. This enforces the theme of togetherness and mutual dependence. The game is set in a limbo-like world, chosen for its symbolic representation of the characters' state — between their past lives and their potential redemption. This setting supports the narrative. The decision was influenced by the desire to create a space that felt both mysterious and engaging, encouraging exploration and cooperation. 
 
-##### Programming Phase
 
-Instead of using the racing kit template provided by the class, I chose to 'reinvent' the wheel and start from scratch. The work is split between a few things:
+| Level Design Sketch        |
+| -------------------------- |
+| ![LevelDesignSketch](leveldesign.jpeg) |
 
-+ Car physics & controller
-+ Sound manager
-+ Logic systems (timer, finish line, track points)
+As the one in charge of designing the levels, I envision 'progressive' stages to the gameplay experience. What I mean by this is that there is a **curve where the players transition from a simple gameplay to more challenging puzzles.**
 
-##### Shortcomings
+The general idea of each chapter is laid out as such: 
++ **Chapter I:** The introductory level, here, the players are introduced to the playable characters (Dark and Light spirits), control schemes, platformer, and lore. 
++ **Chapter II:** I expect by this point players are quite 'familiar' with the gameplay loop. Here, I introduce more mechanics to the game, such as grappling hooks, ladders, anti-gravity zones. The focus on this chapter is an emphasis on full cooperative puzzle solving. 
++ **Chapter III:** 
 
-Because of the tight deadlines, I was unable to actualize the AI versus system. But from this project, I learned the basics of Unity which also serve as the building blocks for future projects. 
-
-## Conclusion & Insights 
-
-I got an A for this project, pretty satisfied. 
