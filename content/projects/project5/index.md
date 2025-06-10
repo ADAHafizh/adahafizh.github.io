@@ -1,10 +1,10 @@
 ---
-title: "Just A Racing Game | Unity"
+title: "SOULMATES | Unity"
 date: 2024-03-03
 tags: ["Digital Video Game", "Game Development", "Game Design", "Class"]
 author: "Ahmad Dahlan Hafizh"
-description: "A racing game made with Unity" 
-summary: "Just A Racing Game is a singleplayer racing game with three distinct maps and cars!" 
+description: "2D Platformer Coop game" 
+summary: "A two-player local coop 2D platformer game about journey between life and death, together." 
 cover:
     image: "racingbanner.gif"
     alt: "© Orkhan Julfa"
