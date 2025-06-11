@@ -19,7 +19,7 @@ menu:
           url: courses/
           weight: 3 
         - name: About
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          url: https://adahafizh.github.io/
           weight: 1
 
 params:
