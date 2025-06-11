@@ -15,9 +15,6 @@ menu:
         - name: Projects
           url: projects/
           weight: 2 
-        - name: Courses
-          url: courses/
-          weight: 3 
         - name: About
           url: https://adahafizh.github.io/
           weight: 1
@@ -89,7 +86,7 @@ markup:
     goldmark:
         renderer:
             unsafe: true
-    highlight:
+    highlight:  
         guessSyntax: true
         style: autumn 
     tableOfContents:
