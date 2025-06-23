@@ -1,10 +1,10 @@
 ---
-title: "It Stands | Interactive Mapping"
+title: "Light Up! | Interactive Mapping Project"
 date: 2025-06-10
 tags: ["Digital Humanities", "Mapping", "Geovisual"]
 author: "Ahmad Dahlan Hafizh"
 description: "Interactive Gaza Mapping" 
-summary: "Gaza still very much stands to this day, and more active efforts are welcome for cause" 
+summary: "The place still very much stands to this day, and more active efforts are welcome for positive cause." 
 cover:
     image: "banner.png"
     alt: "© Ahmad Dahlan Hafizh"
@@ -18,63 +18,32 @@ disableAnchoredHeadings: false
 ---
 ## Disclaimer
 
-The way information is shown on this map does not reflect any political stance or opinion about the legal status of any region, boundary, or authority. The data provided, including those from UNOSAT (United Nations Satellite Centre) and HOTOSM (Humanitarian OpenStreetMap Team), is for informational purposes only. Responsibility for how this map is interpreted or used lies entirely with the user.
+> *The way information is shown on this map does not reflect any political stance or opinion about the legal status of any region, boundary, or authority. The data provided, including those from UNOSAT (United Nations Satellite Centre) and HOTOSM (Humanitarian OpenStreetMap Team), is for informational purposes only. Responsibility for how this map is interpreted or used lies entirely with the user.*
 
 ## Description 
 
 ##### Development Time: 2 Weeks
 
-Pyro Dancer is an endless-runner 2D game with heavy inspirations from notable titles, such as Castlevania and Metroid inspire the game. Paired with 8-bit sound and theme by Haynes, Pyro Dancer tries to mimic the retro feel of older games.
+I came across HOT (Humanitarian OpenStreetMap Team) during my work as a research assistant on campus. HOT is an international team dedicated to humanitarian action and community development through open mapping. They work to provide map data which revolutionises disaster management, reduces risks, and contributes to achievement of the Sustainable Development Goals.
 
-The player assumes the role of a knight, invading the evil castle. Upon entering the castle, he is greeted by dozens of fireballs. To win the game, the player must dodge the fireball and achieve 500 score points. If the player runs out of health points before reaching the score, they will die.
+For this project, I intend to create a layered timeline progressive interactive map. In other words, I would like to display a map that the user can 'play around' with the different settings that allows broader range of interpretations. 
 
-The game was developed as a midterm project for New York University Abu Dhabi (NYUAD) Interactive Media program class: Introduction to Interactive Media, lectured by Aya Riad. 
+Thus, this project is a culmination and display some skills that I have learned throughout my time as a researcher.
 
-## Screenshots 
+## Demo 
 
-| In-game screenshots                  |
-| ------------------------------------ |
-| ![Main Menu](mainmenu.png)       |        
-| ![Game Screen](gamescreen.png)   |
-| ![Death Screen](deathscreen.png) |
+**put .GIF here**
 
-## Intended Gameplay
+## Interactive Map 
 
-Players will have to dodge the fireballs by going up or down. They also have the choice to speed up their running by pressing the D key. As the score increases, so does the difficulty.
 
-Above a certain score, players will be greeted by stationary monsters that instantly kill them upon touching. This would balance out the difficulty and create varied gameplay, as dodging only fireballs would be boring!
 
-| Knight Sprite                    |
-| -------------------------------- |
-| ![Knight Sprite](knight.gif) |
+## Processes
 
-To win the game, players must reach a score of 1000 and proceed to the boss battle. 
+##### Data Collection
 
-## Development
+Originally, I wanted to use UNOSAT's comprehensive data regarding the different types of layers they provide (i.e population, agriculture). However, a major challenge that I encountered was that the data they provided were in the form of GDTable, which was incompatible with the tool I intend to use: [kepler.gl](https://kepler.gl/demo)
 
-As the name suggests, Pyro Dancer will feature a knight running through a dracula-esque castle to save the princess. However, he is greeted by dozens of fireballs in the process.
+> **Hence, for the data, I extracted it from HOTOSM's [Export Tool](https://export.hotosm.org/v3/exports/new).**
 
-##### Brainstorming Phase 
-
-This was my very first take on using JavaScript, p5, and making a game. I wanted to make an "8-bit" endless runner game because of my inspiration from older titles. Plus, it would make a nice presentation as it is very thematic. 
-
-| Sketches            |
-| -------------------------------- |
-| ![Sketch](sketch.jpeg) |
-
-##### Programming Phase
-
-In order for me to make this game, I used an external library called p5.Play, an extensive game-oriented packed with QoL features. In my code, I used this package mostly for sprite animations for the knight and fireball. The package allowed me to also easily make the main menus and buttons. 
-
-+ Building upon my previous knowledge from Computer Science classes, I heavily utilized OOPs, Classes, Parent-Child inheritance to easily make the objects inside the game. 
-
-##### Shortcomings
-
-Because of the tight deadlines, I was unable to actualize the boss fights and combat mechanics. There were major bugs in the development process that was caused by a certain version of p5.play incompatible with p5. 
-
-## Conclusion & Insights 
-
-Pyro Dancer was my very first video game that I made. It introduced me to the 'surface' level of game development and design pipeline. 
-
->Because of this, I truly found a passion, hobby, and pathway that I enjoyed. Being a developer and designer requires one to have a mind to approach things in various ways. 
-
+##### Examining the Data 
