@@ -22,7 +22,8 @@ disableAnchoredHeadings: false
 
 ## Description 
 
-##### Development Time: 2 Weeks
+##### Development Time: 6 Weeks
+##### Group Project, Role: Cinematography & Level Designer
 
 I came across HOT (Humanitarian OpenStreetMap Team) during my work as a research assistant on campus. HOT is an international team dedicated to humanitarian action and community development through open mapping. They work to provide map data which revolutionises disaster management, reduces risks, and contributes to achievement of the Sustainable Development Goals.
 
