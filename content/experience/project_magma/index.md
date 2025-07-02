@@ -1,10 +1,10 @@
 ---
-title: "[WIP] Light Up! | Interactive Mapping Project"
-date: 2025-06-10
-tags: ["Digital Humanities", "Mapping", "Geovisual"]
+title: "TEAM MAGMA | Virtual Concert"
+date: 2025-12-10
+tags: ["Mixed Reality", "Interactive Media", "Performative"]
 author: "Ahmad Dahlan Hafizh"
-description: "Interactive Gaza Mapping" 
-summary: "The place still very much stands to this day, and more active efforts are welcome for positive cause." 
+description: "Virtual Concert" 
+summary: "Immerse yourself in a neon lit realm where three skeletal musicians unite to deliver a transcendent concert experience" 
 cover:
     image: "banner.png"
     alt: "© Ahmad Dahlan Hafizh"
