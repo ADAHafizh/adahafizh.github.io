@@ -62,7 +62,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: ADAHafizh_CV_2025.pdf
+          url: cv.pdf
         - name: Email
           url: mailto:adh10023@nyu.edu
         - name: GitHub
